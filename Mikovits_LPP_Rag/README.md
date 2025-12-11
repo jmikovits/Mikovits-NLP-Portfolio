@@ -7,7 +7,7 @@
 ## 📌 Project Overview & Problem Statement
 
 ### The Problem
-NBA fandom relies heavily on scattered information—statistical databases, news articles, and historical records. Finding a coherent answer that synthesizes "what happened" (narrative) with "what the numbers say" (statistics) is difficult using standard search engines or generic LLMs, which often hallucinate scores or outdated roster moves.
+NBA fandom relies heavily on scattered information, for example, statistical databases, news articles, and historical records. Finding a coherent answer that synthesizes "what happened" (narrative) with "what the numbers say" (statistics) is difficult using standard search engines or generic LLMs, which often hallucinate scores or outdated roster moves.
 
 ### The Solution
 The **NBA RAG Assistant** is a specialized AI agent that bridges this gap. By ingesting a curated dataset of official player statistics and analytical articles from the 2023-2025 seasons, this system allows users to query a private knowledge base. It delivers accurate, sourced answers by retrieving exact context before generating a response.
