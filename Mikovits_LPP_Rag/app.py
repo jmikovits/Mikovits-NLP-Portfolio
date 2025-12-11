@@ -260,7 +260,10 @@ with st.expander("💡 Example Questions"):
         "Who won the NBA finals in the 2024-25 season?",
         "What is the best combination of three players on the same team?",
         "How does the salary cap and finances work for NBA teams?",
-        "What players might do the best defensively against LeBron James?"
+        "What players might do the best defensively against LeBron James?",
+        "Who won the NBA Championship in 2030?",
+        "Compare the impact of Luka Doncic and Shai Gilgeous-Alexander on their teams in 2024.",
+        "What specific injuries affected the New York Knicks during the 2024 playoffs?"
     ]
     
     for example in examples:
