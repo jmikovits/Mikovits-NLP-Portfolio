@@ -55,7 +55,7 @@ To ensure comprehensive coverage of the NBA landscape, I curated a diverse datas
 The core of this application is a custom **CrewAI Agent** configured with specific instructions to act as a reliable domain expert.
 
 * **Role:** `NBA Content Assistant`
-* **Goal:** "Provide answers ONLY if they are explicitly found in the retrieved context."
+* **Goal:** "Provide answers ONLY if they are explicitly found in the retrieved context, but report the answers as a succinct summary of database material"
 * **Backstory:** "You are a assistant who verifies facts against a provided database. Your database ONLY contains data from the 2023-2024, 2024-2025, and 2025-26 seasons (only the beginning of the 2025-26 season). If the user asks about a year in the future (e.g., 2030), you MUST say: I cannot answer this as it is in the future. If the retrieved context does not contain the answer, do not guess. State: The provided documents do not contain this information. Ignore your internal knowledge about the NBA. Only use the retrieved passages."
 
 ### Rationale
