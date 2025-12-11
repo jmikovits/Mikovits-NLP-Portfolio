@@ -5,14 +5,14 @@ Welcome to my Natural Language Processing (NLP) Portfolio! This repository is a 
 
 This portfolio is organized into folders based on their category. For example:
 
-### Weekly In-Class Coding Work [Link to Folder]
+#### Weekly In-Class Coding Work [[Link to Folder](https://github.com/jmikovits/Mikovits-NLP-Portfolio/tree/main/NLP%20In-Class%20Coding%20Notebooks)]
 A collection of notebooks showcasing various topics I've learned and applied in my NLP class, with demonstrated mastery through completed exercises.
 
-### NBA RAG Assistant [Link to NBA RAG Repository]
+#### NBA RAG Assistant [[Link to NBA RAG Repository](https://github.com/jmikovits/Mikovits-NLP-Portfolio/tree/main/Mikovits_LPP_Rag)]
 
 ---
 
-## NBA RAG Assistant [Link to NBA RAG Repository]
+## NBA RAG Assistant [[Link to NBA RAG Repository](https://github.com/jmikovits/Mikovits-NLP-Portfolio/tree/main/Mikovits_LPP_Rag)]
 
 ### Overview
 In this project, I developed an advanced **Retrieval-Augmented Generation (RAG)** application that serves as an intelligent assistant for NBA knowledge. Unlike a standard chatbot, this agent references a curated vector database of NBA video transcripts, player statistics, and articles to provide fact-based answers.
@@ -25,7 +25,7 @@ Built using **Python**, **CrewAI**, **Streamlit**, **DuckDB**, and **OpenAI**, t
 * **Configure the Agent** dynamically via a sidebar, adjusting parameters like the number of search results (`top_k`) or the specific LLM model used.
 
 ### Project Significance
-This project is a cornerstone of my NLP portfolio because it demonstrates the ability to build **end-to-end AI pipelines**. It goes beyond simple API calls by implementing a full RAG architecture—from data ingestion and chunking to vector storage and retrieval.
+This project is a cornerstone of my NLP portfolio because it demonstrates the ability to build **end-to-end AI pipelines**. It goes beyond simple API calls by implementing a full RAG architecture, from data ingestion and chunking to vector storage and retrieval.
 
 It highlights my proficiency in:
 
