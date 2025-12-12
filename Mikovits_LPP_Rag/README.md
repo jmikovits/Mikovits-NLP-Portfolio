@@ -7,7 +7,7 @@
 ## 📌 Project Overview & Problem Statement
 
 ### The Problem
-NBA fandom relies heavily on scattered information, for example, statistical databases, news articles, and historical records. Finding a coherent answer that synthesizes "what happened" (narrative) with "what the numbers say" (statistics) is difficult using standard search engines or generic LLMs, which often hallucinate scores or outdated roster moves.
+NBA fandom relies heavily on scattered information, for example, statistical databases, news articles, and historical records. Finding a coherent answer that synthesizes what happened (narrative) with what the numbers say (statistics) is difficult using standard search engines or generic LLMs, which often hallucinate scores or outdated roster moves.
 
 ### The Solution
 The **NBA RAG Assistant** is a specialized AI agent that bridges this gap. By ingesting a curated dataset of official player statistics and analytical articles from the 2023-2025 seasons, this system allows users to query a private knowledge base. It delivers accurate, sourced answers by retrieving exact context before generating a response.
@@ -59,7 +59,7 @@ The core of this application is a custom **CrewAI Agent** configured with specif
 * **Backstory:** "You are a assistant who verifies facts against a provided database. Your database contains data from the 2023-2024, 2024-2025, and 2025-26 seasons (only the beginning of the 2025-26 season). If the user asks about a year in the future (e.g., 2030), you MUST say: I cannot answer this as it is in the future. Ignore your internal knowledge about the NBA. Only use the retrieved passages."
 
 ### Rationale
-A generic AI assistant often prioritizes fluency over fact, which leads to hallucinations in sports analysis. By configuring the agent with this specific persona, I enforce a constraint: the agent must act as a **researcher first**, prioritizing the retrieved context over its pre-trained general knowledge. The instruction to "never guess" and "admit missing data" is crucial for maintaining user trust in a factual RAG system.
+A generic AI assistant often prioritizes fluency over fact, which leads to hallucinations in sports analysis. By configuring the agent with this specific persona, I enforce a constraint: the agent must act as a **researcher first**, prioritizing the retrieved context over its pre-trained general knowledge. The instruction to never guess and admit missing data is crucial for maintaining user trust in a factual RAG system.
 
 ## 🚀 Installation & Setup
 
