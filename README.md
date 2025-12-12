@@ -15,7 +15,7 @@ A collection of notebooks showcasing various topics I've learned and applied in 
 ## NBA RAG Assistant [[Link to NBA RAG Repository](https://github.com/jmikovits/Mikovits-NLP-Portfolio/tree/main/Mikovits_LPP_Rag)]
 
 ### Overview
-In this project, I developed an advanced **Retrieval-Augmented Generation (RAG)** application that serves as an intelligent assistant for NBA knowledge. Unlike a standard chatbot, this agent references a curated vector database of NBA video transcripts, player statistics, and articles to provide fact-based answers.
+In this project, I developed an advanced **Retrieval-Augmented Generation (RAG)** application that serves as an intelligent assistant for NBA knowledge. Unlike a standard chatbot, this agent references a curated vector database of team and player statistics, articles, and rules to provide fact-based answers.
 
 Built using **Python**, **CrewAI**, **Streamlit**, **DuckDB**, and **OpenAI**, this app allows users to:
 
